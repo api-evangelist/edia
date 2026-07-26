@@ -1,7 +1,17 @@
 aid: edia
 name: Edia
-description: Edia is a company surfaced as a portfolio company of felicis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Edia is an AI platform for K-12 school districts focused on improving student
+  outcomes. Its products span AI math tutoring (reported 8-23% score
+  improvements), attendance intervention to reduce chronic absenteeism (up to
+  30% reduction), and District Intelligence analytics that consolidate data from
+  student information systems (SIS), learning management systems (LMS), behavior,
+  and wellness sources into a single view for educators and administrators. Edia
+  reports serving 200+ districts and 500K+ students. The company is backed by
+  Felicis and was added to the API Evangelist network as a portfolio-sourced
+  company profile. Edia does not currently publish a public developer portal,
+  API reference, or API specification, so this profile carries only verifiable
+  company identity and probed domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/edia/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,31 @@ x-backed-by:
 - felicis
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://edia.app/linkpreview.jpg
 tags:
 - Company
+- Education
+- EdTech
+- K-12
+- Artificial Intelligence
+- Tutoring
+- Attendance
+- Analytics
+- Student Outcomes
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +51,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/edia-domain-security.yml
 - type: Website
   url: https://edia.app
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
